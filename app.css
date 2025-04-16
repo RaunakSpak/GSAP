@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.panel {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: #000;
+  color: white;
+}
+
+.feature {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s ease-out;
+}
+
+.feature img {
+  width: 400px;
+  margin-bottom: 1rem;
+}
